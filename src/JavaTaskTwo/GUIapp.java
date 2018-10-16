@@ -9,7 +9,7 @@ import javax.swing.*;
 
 public class GUIapp extends JFrame {
 
-    private JButton button = new JButton("Calculate");
+    private JButton button = new JButton("Convert");
     private JLabel input = new JLabel("Input");
     private JLabel output = new JLabel("Output");
     private JTextField inputField = new JTextField("some random text", 2);
