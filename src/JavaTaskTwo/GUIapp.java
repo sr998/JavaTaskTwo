@@ -18,7 +18,7 @@ public class GUIapp extends JFrame {
 
 
     public GUIapp() {
-        super("Matrix Calculator");
+        super("Text converter");
         this.setBounds(400, 400, 500, 550);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
