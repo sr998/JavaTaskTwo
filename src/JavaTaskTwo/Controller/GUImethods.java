@@ -1,4 +1,4 @@
-package JavaTaskTwo;
+package JavaTaskTwo.Controller;
 
 import javax.swing.*;
 

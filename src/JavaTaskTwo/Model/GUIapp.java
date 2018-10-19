@@ -1,8 +1,9 @@
-package JavaTaskTwo;
+package JavaTaskTwo.Model;
+
+import JavaTaskTwo.Controller.GUImethods;
 
 import java.awt.*;
 import java.awt.event.*;
-import java.io.IOException;
 import javax.swing.*;
 
 
