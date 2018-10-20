@@ -1,6 +1,6 @@
 package JavaTaskTwo.View;
 
-import JavaTaskTwo.Model.GUIapp;
+import JavaTaskTwo.View.GUI.GUIapp;
 
 public class Main {
 

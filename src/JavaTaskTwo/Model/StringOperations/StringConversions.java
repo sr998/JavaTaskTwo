@@ -1,8 +1,8 @@
-package JavaTaskTwo.Controller;
+package JavaTaskTwo.Model.StringOperations;
 
 import javax.swing.*;
 
-public class GUImethods {
+public class StringConversions {
 
     public static String toTitleCase(String givenString) {
         String[] arr = givenString.split(" ");
@@ -15,12 +15,5 @@ public class GUImethods {
         return sb.toString().trim();
     }
 
-    public static void printArray(String[] inputArray, JTextField outputField){
 
-        StringBuffer sb = new StringBuffer();
-        for (int i = 0; i < inputArray.length; i++) {
-            sb.append(String.valueOf(GUImethods.toTitleCase(inputArray[i]))+" ");
-            outputField.setText(sb.toString());
-        }
-    }
 }
