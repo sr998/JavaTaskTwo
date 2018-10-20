@@ -19,7 +19,7 @@ public class GUIapp extends JFrame {
 
     public GUIapp() {
         super("Matrix Calculator");
-        this.setBounds(400, 400, 500, 550);
+        this.setBounds(400, 400, 500, 300);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         Container container = this.getContentPane();
